@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.app {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.tabs {
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.form-box label {
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.form-box button {
+    margin-top: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.message.success {
+    background: #e3f6e3;
+    color: #1d6b1d;
+}
+
+.message.error {
+    background: #fbe4e4;
+    color: #9b1c1c;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 12px;
+}
+
+.project-card h3 {
+    margin: 0 0 6px 0;
+}
+
+.project-card p {
+    margin: 4px 0;
+}
+
+.member-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.member-row button {
+    margin-top: 0;
+}
+
+.story-form {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 4px 1px 14px 14px;
+    margin-top: 12px;
+}
+
+.story-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 12px;
+}
+
+.story-card h4 {
+    margin: 0 0 6px 0;
+}
+
+.story-card p {
+    margin: 4px 0;
+}
+
+.story-card button,
+.story-form button {
+    margin-right: 8px;
+}
+
+.story-description {
+    background: #f7f7f7;
+    padding: 8px;
+    border-radius: 4px;
+}
